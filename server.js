@@ -12,7 +12,7 @@
 require('dotenv').config();
 const express = require('express');
 const app = express();
-const userRouter = require('./api/signup/useRouter');
+const userRouter = require('./api/auth/useRouter');
 
 app.use(express.json());
 
